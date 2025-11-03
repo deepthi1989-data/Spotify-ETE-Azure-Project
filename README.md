@@ -1,4 +1,3 @@
-Screenshot (72)
 🎧 Spotify Azure Data Engineering Project
 
 An end-to-end data engineering solution built on Microsoft Azure, processing and transforming Spotify data using a modern data stack.
