@@ -20,7 +20,7 @@ Incremental ingestion pipelines using Azure Data Factory
 
 Backfilling & looping logic for pipeline automation
 
-Integration with Azure Logic Apps for workflow triggering
+Integration with Azure Logic Apps for failure notifications
 
 Spark streaming with Databricks Autoloader
 
