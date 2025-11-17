@@ -67,7 +67,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Lookup_config",
+						"name": "Lookup_config1",
 						"type": "Lookup",
 						"dependsOn": [],
 						"policy": {
@@ -96,7 +96,7 @@
 						"type": "ForEach",
 						"dependsOn": [
 							{
-								"activity": "Lookup_config",
+								"activity": "Lookup_config1",
 								"dependencyConditions": [
 									"Succeeded"
 								]
@@ -105,7 +105,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"items": {
-								"value": "@activity('Lookup_config').output.value",
+								"value": "@activity('Lookup_config1').output.value",
 								"type": "Expression"
 							},
 							"activities": [
